@@ -8,13 +8,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
     <style>
-            .card {
-        background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang transparan */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
-        } 
+        .profil {
+        width: auto;
+        max-height: 160px;
+        }
+      .container-xxl{
+        background-image: linear-gradient(to bottom, #f7f7f7, #e7e7e7);
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        font-family: sans-serif;
+        font-weight: 500;
+        }
         .navbar {
         background-color: rgb(249,243,242, 0.2); /* Warna latar belakang transparan */
-    }
+        }
         .footer{
             background-color: rgb(249,243,242, 0.2); /* Warna latar belakang transparan */
         }
@@ -22,41 +31,40 @@
             color: black;
             text-decoration: solid;
         }
-        h4,h5{
+        h4,h5,h1{
           font-family: sans-serif;
           font-weight: 700;
         }
-    .bg-overlay {
-    position: fixed; /* Menempatkan div secara tetap di layar */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('Image/bg.jpg'); /* Menentukan gambar latar belakang */
-    background-size: cover; /* Mengatur gambar agar mengisi seluruh area div */
-    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
-    opacity: 0.5; /* Mengatur opacity gambar */
-    z-index: -1; /* Menempatkan div di bawah konten lainnya */
-}
-
-    .card {
-        background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang transparan */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
-        } 
-
-    footer {
-        text-align: center;
-    
-    }
-    navbar{
-        background-color: rgba(255, 255, 255, 0.8);
-    }
+        .navbar-nav img {
+          border-radius: 50%;
+          max-height: 40px; /* Adjust the height as needed */
+          width: auto;
+        }
+        .dropdown-menu .a{
+        padding: 0;
+        margin: 0;
+        }
+        .dropdown-menu .d-flex .a .btn btn-primary{
+            margin: 0;
+            width: 100%; /* Ensures the button takes full width of the dropdown */
+            border-radius: 0; /* Removes any border radius */
+        }
+        .dropdown-menu .d-flex .a{
+            width: 100%;
+        }
+        .nav-pills .nav-link.active {
+        background-color: #343a40 !important; /* bs-dark-bg-subtle equivalent */
+        color: white !important;
+        }
+        .nav-pills .nav-link {
+        color: rgb(52,58,64); /* Warna tulisan untuk nav-link */
+      }
     </style>
   <body>
     <!--Background-->
     <div class="bg-overlay"></div>
     <!--Navbar-->
-    <nav  class="navbar navbar-expand-lg fixed-top"  style=" padding-top: 1%;">
+    <nav  class="navbar navbar-expand-lg"  style=" padding-top: 1%;">
         <div class="container-fluid">
             
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,10 +73,11 @@
           <!--Sebelah Kiri-->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <a class="navbar-brand" href="index.html">
-                    <img src="Image/logo_2.png" alt="Logo" width="30" height="auto" class="d-inline-block align-text-top rounded">
+                <a class="navbar-brand" href="produk.html">
+                    <img src="Image/logo 2.PNG" alt="Logo" width="30" height="auto" class="d-inline-block align-text-top rounded">
                     <strong>Aneka Kue</strong>
                 </a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link " style="color: black;" aria-current="page" href="index.html">
                             <strong>Home</strong>
@@ -77,16 +86,33 @@
                             <strong>Produk</strong>
                         </a>
                     </div>
+                  </div>
             </ul>
             <!--Sebelah kanan-->
             <form class="d-flex" role="search">
-                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-cart4 mx-3" viewBox="0 0 16 16">
+                <a href="pesanan.html"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-cart4 mx-3" viewBox="0 0 16 16">
                     <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
                   </svg>
                 </a>
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <input 
+                class="form-control me-2" 
+                type="search" 
+                placeholder="Search" 
+                aria-label="Search">
               <button class="btn btn-outline-dark" type="submit">Search</button>
             </form>
+            <!-- Dropdown for profile -->
+            <div class="dropdown ms-3">
+              <a class="dropdown-toggle no-caret" href="registrasi.html" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="Image/profil.jpg" alt="Profile" class="rounded-circle" width="40" height="40">
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                  <li class="d-flex justify-content-center">
+                    <a href="registrasi.html"><button type="submit" class="btn btn-primary">Sign in</button></a>
+                      
+                  </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
