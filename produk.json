@@ -1,0 +1,145 @@
+[
+  {
+    "id": "1",
+    "nama": "Cake Pisang Large",
+    "deskripsi": "Cake Pisang dengan ukuran besar",
+    "harga": 65000,
+    "image": "Image/1.jpg",
+    "terjual": 120,
+    "satuan" : "loyang",
+    "testimoni": [
+      {
+        "nama": "John Doe",
+        "ulasan": "Sangat enak! Rasanya lezat dan manisnya pas.",
+        "penilaian": 4
+      },
+      {
+        "nama": "Jane Smith",
+        "ulasan": "Cake pisang favorit saya sepanjang masa!",
+        "penilaian": 4
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "nama": "Puding Buah",
+    "deskripsi": "Porsi dari puding buah ini besar sekali",
+    "harga": 70000,
+    "image": "Image/2.jpg",
+    "terjual": 98,
+    "satuan" : "cup",
+    "testimoni": [
+      {
+        "nama": "Alice Johnson",
+        "ulasan": "Puding ini sangat lezat. Sangat direkomendasikan!",
+        "penilaian": 5
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "nama": "Cake Coklat Large",
+    "deskripsi": "Cake Coklat dengan ukuran besar",
+    "harga": 75000,
+    "image": "Image/3.jpg",
+    "terjual": 135,
+    "satuan" : "loyang",
+    "testimoni": [
+      {
+        "nama": "Michael Brown",
+        "ulasan": "Coklatnya sangat kaya rasa. Saya suka sekali!",
+        "penilaian": 4
+      },
+      {
+        "nama": "Emily Davis",
+        "ulasan": "Cake coklat ini sempurna untuk pecinta coklat!",
+        "penilaian": 4
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "nama": "Cake Red Velvet Large",
+    "deskripsi": "Cake Red Velvet dengan ukuran besar",
+    "harga": 80000,
+    "image": "Image/4.jpg",
+    "terjual": 87,
+    "satuan" : "loyang",
+    "testimoni": [
+      {
+        "nama": "David Wilson",
+        "ulasan": "Red Velvet ini sangat lembut dan berwarna cantik!",
+        "penilaian": 4
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "nama": "Puding Mangga",
+    "deskripsi": "Cake Keju dengan ukuran besar",
+    "harga": 70000,
+    "image": "Image/5.jpg",
+    "terjual": 110,
+    "satuan" : "cup",
+    "testimoni": [
+      {
+        "nama": "Sophia Martinez",
+        "ulasan": "Puding Mangganya enak dan nikmat!",
+        "penilaian": 4
+      },
+      {
+        "nama": "Daniel Moore",
+        "ulasan": "Puding Mangga ini manis dan enak sekali.",
+        "penilaian": 4
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "nama": "Cake Pandan Large",
+    "deskripsi": "Cake Pandan dengan ukuran besar",
+    "harga": 68000,
+    "image": "Image/6.jpg",
+    "terjual": 102,
+    "satuan" : "loyang",
+    "testimoni": [
+      {
+        "nama": "Olivia Garcia",
+        "ulasan": "Cake pandan ini sangat segar dan aromanya enak.",
+        "penilaian": 5
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "nama": "Cake Mocha Large",
+    "deskripsi": "Cake Mocha dengan ukuran besar",
+    "harga": 75000,
+    "image": "Image/7.jpg",
+    "terjual": 93,
+    "satuan" : "loyang",
+    "testimoni": [
+      {
+        "nama": "Ethan Thomas",
+        "ulasan": "Mocha-nya mantap, cocok untuk pecinta kopi!",
+        "penilaian": 4
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "nama": "Cake Blueberry Large",
+    "deskripsi": "Cake Blueberry dengan ukuran besar",
+    "harga": 78000,
+    "image": "Image/8.jpg",
+    "terjual": 115,
+    "satuan" : "loyang",
+    "testimoni": [
+      {
+        "nama": "Isabella Robinson",
+        "ulasan": "Blueberry-nya segar dan bikin nagih!",
+        "penilaian": 5
+      }
+    ]
+  }
+]
